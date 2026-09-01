@@ -1,6 +1,7 @@
-w<p align="center"><img src=debian-logo.png width="300"></p><br>
+w<p align="center"><img src=logo.png width="600"></p><br>
 
-Manually install Debian trixie/testing with LUKS2 and BTRFS with subvolumes and Encrypted Swap: 
+How to properly configure Alma Linux Immutable Atomic properly.
+
 
  - EFI Boot Partition
  - LUKS2 Swap Partition
@@ -8,11 +9,12 @@ Manually install Debian trixie/testing with LUKS2 and BTRFS with subvolumes and 
  - BTRFS Partition
  - 2 BTRFS Subvolumes
 
-# Debian installation (debootstrap)
+# Alma Linux Atomic installation 
 
 ## Pre-installation setup
 
-Boot from latested stable or testing release of Debian/Gentoo LiveISO. I personally used a working Gentoo Environment.
+Download latest version of AlmaLinux Atomic
+https://almalinux-atomic.s3-accelerate.dualstack.amazonaws.com/atomic-desktop/latest/atomic-desktop-kde-amd64.iso
 
 Installed needed packages
 
