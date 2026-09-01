@@ -1,4 +1,4 @@
-w<p align="center"><img src=logo.png width="600"></p><br>
+<p align="center"><img src=logo.png width="600"></p><br>
 
 How to properly configure Alma Linux Immutable Atomic for USask Environment
 
