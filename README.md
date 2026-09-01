@@ -12,16 +12,14 @@ How to properly configure Alma Linux Immutable Atomic for USask Environment
 
 ## Pre-installation setup
 
-Download latest version of AlmaLinux Atomic
-[https://github.com/AlmaLinux/atomic-desktop]
-(https://github.com/AlmaLinux/atomic-desktop)
-Download latest ISO of Alma Linux Immutable. Highly recommend KDE.
+Download latest version of AlmaLinux Atomic.<br>
+https://github.com/AlmaLinux/atomic-desktop<br>
+Download latest ISO of Alma Linux Immutable. Highly recommend KDE.<br><br>
 
-Download Fedora Media Writer
-[https://github.com/FedoraQt/MediaWriter]
-(https://github.com/FedoraQt/MediaWriter)
+Download Fedora Media Writer<br>
+https://github.com/FedoraQt/MediaWriter<br>
 
-Write to USB Key. Atleast 6GB
+Write to USB Key. Atleast 6GB. <br>
 
 ## Partitions
 
