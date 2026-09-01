@@ -39,7 +39,7 @@ Create Basic Username Password
 ## Partitions
 ### Creating partitions
 
- - choose Install Destination
+ - Choose Install Destination
  - Choose Custom
  - Choose disk. Click Done
  - Based on the assumption you do not intend on dual booting
