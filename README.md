@@ -90,6 +90,7 @@ You now have the ability to create virtual machines and keep other software cont
 All of your Flatpak software is also containerized. Your baseOS should be rock solid.<br>
 To update.<br>
 Just<br>
+
     sudo rpm-ostree update
 <br><br>
 This makes everything you do extremely containerize and reproducible.
