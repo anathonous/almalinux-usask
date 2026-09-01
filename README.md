@@ -84,10 +84,12 @@ sudo rpm-ostree install kmail
 ````
 
 ### In closing
-You now have a Btrfs subvolumed system that is immutable. You can create system snapshots for backups using snapper. As well as export Atomic Deployments.
-If you do your software development in Podman(docker) your software is now reproducible on any other system using podman/docker. 
-You now have the ability to create virtual machines and keep other software contained within a VM.
-All of your Flatpak software is also containerized. Your baseOS should be rock solid. 
-To update.
-Just
+You now have a Btrfs subvolumed system that is immutable. You can create system snapshots for backups using snapper. As well as export Atomic Deployments.<br>
+If you do your software development in Podman(docker) your software is now reproducible on any other systems using podman/docker. Use 10-minimal for your docker images. <br>
+You now have the ability to create virtual machines and keep other software contained within a VM.<br>
+All of your Flatpak software is also containerized. Your baseOS should be rock solid.<br>
+To update.<br>
+Just<br>
     sudo rpm-ostree update
+<br><br>
+This makes everything you do extremely containerize and reproducible.
