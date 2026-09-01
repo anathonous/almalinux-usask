@@ -93,7 +93,7 @@ Just<br>
 
     sudo rpm-ostree update
 <br><br>
-This makes everything you do extremely containerize and reproducible.
+This makes everything you do extremely containerized and reproducible.
 
 ## Recommended hardware
 Used Thinkpad X1 Carbon Gen 8 and Up<br>
