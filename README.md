@@ -28,7 +28,7 @@ Set to US English
 ## Networking
 Connect to USask. WPA3 PEAP<br>
 Domain usask.ca<br>
-Username 123abc@usask.ca<br>
+Username abc123@usask.ca<br>
 Password pawspassword<br>
 ## Time
 Set timezone<br>
