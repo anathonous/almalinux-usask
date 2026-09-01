@@ -1,28 +1,27 @@
 w<p align="center"><img src=logo.png width="600"></p><br>
 
-How to properly configure Alma Linux Immutable Atomic properly.
+How to properly configure Alma Linux Immutable Atomic for USask Environment
 
 
- - EFI Boot Partition
- - LUKS2 Swap Partition
- - LUKS2 Container
- - BTRFS Partition
- - 2 BTRFS Subvolumes
+ - Lang
+ - Time Server
+ - Partitioning
+ - Encryption
 
 # Alma Linux Atomic installation 
 
 ## Pre-installation setup
 
 Download latest version of AlmaLinux Atomic
-https://almalinux-atomic.s3-accelerate.dualstack.amazonaws.com/atomic-desktop/latest/atomic-desktop-kde-amd64.iso
+[https://github.com/AlmaLinux/atomic-desktop]
+(https://github.com/AlmaLinux/atomic-desktop)
+Download latest ISO of Alma Linux Immutable. Highly recommend KDE.
 
-Installed needed packages
+Download Fedora Media Writer
+[https://github.com/FedoraQt/MediaWriter]
+(https://github.com/FedoraQt/MediaWriter)
 
-    apt install debbootstrap cryptsetup
-On Gentoo
-````
-sudo emerge -av debootstrap cryptsetup
-````
+Write to USB Key. Atleast 6GB
 
 ## Partitions
 
