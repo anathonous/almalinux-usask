@@ -78,7 +78,7 @@ Open Firewall settings and change default zone to block.
 
 Install Waterfox via Discover. Install Flatpak
 
-### Install other software
+### Install other software de / system specific software not included in minimal install or flathub
 ````
 sudo rpm-ostree install kmail
 ````
