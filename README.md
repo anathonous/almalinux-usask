@@ -26,53 +26,36 @@ Set to CA English
 ## Keyboard
 Set to US English
 ## Networking
-Connect to USask. WPA3 PEAP.<br>
+Connect to USask. WPA3 PEAP<br>
+Domain usask.ca<br>
 Username 123abc@usask.ca<br>
 Password pawspassword<br>
 ## Time
+Set timezone<br>
+Set ntpserver to time.nrc.ca
 ## User
-
+Create Basic Username Password
 
 ## Partitions
 ### Creating partitions
 
-Perform formatting and partitioning with cfdisk. 
-````
-cfdisk /dev/nvme0n1
-````
- - create a new partition 2G or more. Change type to EFI System.
- - create a new partition 8G or more. Leave type as Linux.
- - Create a new partition 100%FREE. Use remainder of drive. Leave type as Linux.
- - Save and write to disk
- - Ext
+ - choose Install Destination
+ - Choose Custom
+ - Choose disk. Click Done
+ - Based on the assumption you do not intend on dual booting
+ - Choose "New mount points will use"
+ - Change to Btrfs
+ - Enable Encrypt Data
+ - Then click "Click here to create them Automatically."
+ - Choose Blue "Done" at top left hand corner
+ - Enter passphrase for encryption twice. Save.
+ - Click continue. This will repartition drive. (you will lose everything on the drive. Maybe use windows media creator to create a spare windows installer usb)
+ - Begin install.
 
-### Preparing partitions
+### Setup Discover
 
-Format the first partition as EFI (boot) and set needed flags:
 
-    mkfs.fat -F 32 /dev/nvme0n1p1
-    parted /dev/nvme0n1 set 1 esp on
-    parted /dev/nvme0n1 set 1 boot on
-
-Prepare the second encrypted swap partition
-````
-    cryptsetup luksFormat -s 256 -c aes-xts-plain64 /dev/nvme0n1p2
-````
-Respond with a "YES" and enter a passphrase twice (-y provides this).
-
-Open the main partition with a name "OPEN"
-
-    cryptsetup open /dev/nvme0n1p2 DEBIANSWAP 
-    <passphrase>
-
-Format the partition as swap
-
-````
-mkswap /dev/mapper/DEBIANSWAP
-swapon /dev/mapper/DEBIANSWAP
-````
-
-### Creating BTRFS main and subvolumes
+### Install Podman Desktop
 ````
 cryptsetup luksFormat -s 256 -c aes-xts-plain64 /dev/nvme0n1p3
 cryptsetup luksOpen /dev/nvme0n1p3 DEBIANLUKS
@@ -101,7 +84,7 @@ Create subvolumes for rootfs, home, var and snapshots
     
 ## Base installation
 
-### Bootstrapping a base-system
+### Install Virt-Manager
 
 With all partitions mounted, run
 
