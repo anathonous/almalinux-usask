@@ -21,8 +21,19 @@ https://github.com/FedoraQt/MediaWriter<br>
 
 Write to USB Key. Atleast 6GB. <br>
 
-## Partitions
+## Lang
+Set to CA English
+## Keyboard
+Set to US English
+## Networking
+Connect to USask. WPA3 PEAP.<br>
+Username 123abc@usask.ca<br>
+Password pawspassword<br>
+## Time
+## User
 
+
+## Partitions
 ### Creating partitions
 
 Perform formatting and partitioning with cfdisk. 
