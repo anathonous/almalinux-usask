@@ -104,6 +104,11 @@ Icons - ColorFlow.Agresive.Color<br>
 Pointers - Clay White Curors<br>
 Splash Screen - Circles KDE Splash Screen<br>
 <br><br>
+Top Panel<br>
+translucent<br>
+top placement<br>
+custom width 80%<br>
+<br>
 Waterfox Theme - Simple Dark Green<br>
 
 
