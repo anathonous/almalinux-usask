@@ -111,7 +111,7 @@ custom width 80%<br>
 <br>
 Waterfox Theme - Simple Dark Green<br>
 <p align="center"><img src=clsscreenshot.png width="600"></p><br>
-
+https://store.kde.org/p/2370175
 
 ## Recommended hardware
 Used Thinkpad X1 Carbon Gen 8 and Up<br>
