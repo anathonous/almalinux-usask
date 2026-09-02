@@ -95,6 +95,18 @@ Just<br>
 <br><br>
 This makes everything you do extremely containerized and reproducible.
 
+## Theme
+Colors - Acrilidark<br>
+Application Style - Breeze<br>
+Plasma Style - Rounded Color Opaque<br>
+Window Decorations - ketsa<br>
+Icons - ColorFlow.Agresive.Color<br>
+Pointers - Clay White Curors<br>
+Splash Screen - Circles KDE Splash Screen<br>
+<br><br>
+Waterfox Theme - Simple Dark Green<br>
+
+
 ## Recommended hardware
 Used Thinkpad X1 Carbon Gen 8 and Up<br>
 Used Thinkpad P1 Gen 2 and Up
