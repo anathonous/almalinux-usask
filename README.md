@@ -101,7 +101,7 @@ Application Style - Breeze<br>
 Plasma Style - Rounded Color Opaque<br>
 Window Decorations - ketsa<br>
 Icons - ColorFlow.Agresive.Color<br>
-Pointers - Clay White Curors<br>
+Pointers - Clay White Cusrors<br>
 Splash Screen - Circles KDE Splash Screen<br>
 <br><br>
 Top Panel<br>
